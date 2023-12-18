@@ -16,6 +16,8 @@ public class CustomStage extends Stage {
         setWidth(screenWidth /2);
         setHeight(screenHeight /1.5);
 
+        setResizable(false);
+
         System.out.println(this.getHeight());
         setScene(new HomeScene(new BorderPane(), this));
     }
