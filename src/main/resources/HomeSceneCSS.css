@@ -66,3 +66,11 @@
     -fx-border-color: #2A3A6A; /* Dark blue border */
     -fx-padding: 15px;
 }
+
+.not-valid-message{
+    -fx-fill: red;
+}
+
+.valid-message{
+    -fx-fill: green;
+}

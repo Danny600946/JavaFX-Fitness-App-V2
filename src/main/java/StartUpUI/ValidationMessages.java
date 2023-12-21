@@ -10,6 +10,10 @@ public class ValidationMessages extends VBox {
         setMaxHeight(40);
         setMinHeight(40);
         setAlignment(Pos.CENTER);
+
+        for (Text validationText : validationTexts) {
+            validationText.getStyleClass().add("not-valid-message");
+        }
         getChildren().addAll(validationTexts);
     }
 }
